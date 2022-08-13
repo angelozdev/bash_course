@@ -1,0 +1,5 @@
+#! /bin/bash
+
+echo "Hello from another file, $name!"
+
+echo 3 > 5
