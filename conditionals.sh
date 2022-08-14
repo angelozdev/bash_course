@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 num_1=""
 num_2=""
@@ -7,7 +7,7 @@ read -p "Primer número: " num_1
 read -p "Segundo número: " num_2
 
 if [[ -z $num_1 || -z $num_2 ]]; then
-	echo "Debes digitar ambos números"
+  echo "Debes digitar ambos números"
 	exit 1
 fi
 
